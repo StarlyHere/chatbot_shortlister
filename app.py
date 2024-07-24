@@ -5,7 +5,7 @@ from pypdf import PdfReader
 
 
 # Configure the API key
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["GEMINI_API"])
 
 
 chat_model = genai.GenerativeModel('gemini-pro')
